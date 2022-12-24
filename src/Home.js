@@ -1,0 +1,375 @@
+import React from 'react'
+
+function Home() {
+  return (
+    <div>
+
+    {/* <section id="header">
+        <h3>PU-Charity Foundation</h3>
+
+        <div>  */}
+            {/* <ul id="navbar"> */}
+            {/* <li><a href="index.js">Home</a></li> */}
+                {/* <li><a href="shop.js">Shop</a></li>
+                <li><a class="active" href="blog.js">Blog</a></li>
+                <li><a href="about.js">About</a></li>
+                <li><a href="contact.js">Contact</a></li>
+                <li><a href="contact.html">Donate</a></li> */}
+                {/* <!-- <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li> --> */}
+                {/* <a href="#" id="close"><i class="far fa-times"></i></a> */}
+            {/* </ul> */}
+        {/* </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section> */}
+
+    <section id="hero">
+        <p>Kindness is giving hope to those who think they are all alone in this world. </p>
+        <h2>Help needy people</h2>
+        <h1>Donate products</h1>
+        
+        <button>Explore </button>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt=""/>
+            <h6>Review product</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt=""/>
+            <h6>Confirm Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f3.png" alt=""/>
+            <h6>Save </h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f4.png" alt=""/>
+            <h6>Promote</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f5.png" alt=""/>
+            <h6>Helping other</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt=""/>
+            <h6>Support</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection Cloths</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt=""/>
+                <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f2.jpg" alt=""/>
+                <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f3.jpg" alt=""/>
+                <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f4.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f5.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f6.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f7.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f8.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Your old is their new. </h4>
+        <h2>Help us help them throw away their worn out clothes</h2>
+        <button class="normal">Donate More</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Give To Live Longer</h2>
+        <p>Summer Collection </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/n1.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n2.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n3.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n4.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n5.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n6.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n7.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n8.jpg" alt=""/>
+              <div class="des">
+                    <span>Harsh</span>
+                    <h5> T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>8401293053</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Happy deals</h4>
+            <h2></h2>
+            <span>The best classic dress for you</span>
+            <button class="white">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>summer</h4>
+            <h2>upcomming season cloths</h2>
+            <span>The best dress for you</span>
+            <button class="white">Products</button>
+        </div>
+    </section>
+
+    
+{/* 
+    <section id="newsletter" class="section-m1 section-p1">
+        <div class="newstext">
+            <h4>Sign Up For latest News </h4>
+            <p>Get E-mail updates about our latest products </p>
+        </div>
+        <div class="form">
+            <input type="text" name="" placeholder="Your email address" id=""/>
+            <button class="normal">Sign Up</button>
+        </div>
+    </section> */}
+
+ 
+
+
+    <script src="script.js"></script>
+ </div>
+  )
+}
+
+export default Home
