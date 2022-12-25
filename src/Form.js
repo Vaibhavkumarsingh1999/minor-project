@@ -21,13 +21,28 @@ const Form = () => {
   return (
     <div
       style={{
+backgroundColor : "#ECF0F1",
+display: "flex",
+textAlign: "center",
+alignItems: "center",
+justifyContent: "center",
+        
+      }}
+    >
+       <div
+      style={{
+        padding: "40px",
+        margin: "25px",
+        width: "600px",
+        height: "500px",
         display: "flex",
         textAlign: "center",
         alignItems: "center",
         justifyContent: "center",
         backgroundImage: `url(
-          https://amymhaddad.s3.amazonaws.com/morocco-blue.png
+          https://thumbs.dreamstime.com/z/people-charity-family-care-concept-close-up-woman-hands-holding-girl-hands-blue-background-59071781.jpg
         )`,
+        backgroundRepeat : "no-repeat",
       }}
     >
       <form>
@@ -76,6 +91,8 @@ const Form = () => {
 
         <button type="submit">Submit</button>
       </form>
+      </div>
+      
     </div>
   );
 };
