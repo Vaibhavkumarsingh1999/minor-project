@@ -16,27 +16,27 @@ function Home() {
 
       <section id="feature" class="section-p1">
         <div class="fe-box">
-          <img src="img/features/f1.png" alt="" />
+          <img src={require("./img/features/f1.png")} alt="" />
           <h6>Review product</h6>
         </div>
         <div class="fe-box">
-          <img src="img/features/f2.png" alt="" />
+          <img src={require("./img/features/f2.png")} alt="" />
           <h6>Confirm Order</h6>
         </div>
         <div class="fe-box">
-          <img src="img/features/f3.png" alt="" />
+          <img src={require("./img/features/f3.png")} alt="" />
           <h6>Save </h6>
         </div>
         <div class="fe-box">
-          <img src="img/features/f4.png" alt="" />
+          <img src={require("./img/features/f4.png")} alt="" />
           <h6>Promote</h6>
         </div>
         <div class="fe-box">
-          <img src="img/features/f5.png" alt="" />
+          <img src={require("./img/features/f5.png")} alt="" />
           <h6>Helping other</h6>
         </div>
         <div class="fe-box">
-          <img src="img/features/f6.png" alt="" />
+          <img src={require("./img/features/f6.png")} alt="" />
           <h6>Support</h6>
         </div>
       </section>
@@ -46,7 +46,7 @@ function Home() {
         <p>Summer Collection Cloths</p>
         <div class="pro-container">
           <div class="pro">
-            <img src="img/products/f1.jpg" alt="" />
+            <img src={require("./img/products/f1.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -64,7 +64,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/f2.jpg" alt="" />
+            <img src={require("./img/products/f2.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -82,7 +82,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/f3.jpg" alt="" />
+            <img src={require("./img/products/f3.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -100,7 +100,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/f4.jpg" alt="" />
+            <img src={require("./img/products/f4.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -118,7 +118,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/f5.jpg" alt="" />
+            <img src={require("./img/products/f5.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -136,7 +136,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/f6.jpg" alt="" />
+            <img src={require("./img/products/f6.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -154,7 +154,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/f7.jpg" alt="" />
+            <img src={require("./img/products/f7.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -172,7 +172,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/f8.jpg" alt="" />
+            <img src={require("./img/products/f8.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -203,7 +203,7 @@ function Home() {
         <p>Summer Collection </p>
         <div class="pro-container">
           <div class="pro">
-            <img src="img/products/n1.jpg" alt="" />
+            <img src={require("./img/products/n1.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -221,7 +221,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/n2.jpg" alt="" />
+            <img src={require("./img/products/n2.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -239,7 +239,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/n3.jpg" alt="" />
+            <img src={require("./img/products/n3.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -257,7 +257,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/n4.jpg" alt="" />
+            <img src={require("./img/products/n4.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -275,7 +275,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/n5.jpg" alt="" />
+            <img src={require("./img/products/n5.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -293,7 +293,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/n6.jpg" alt="" />
+            <img src={require("./img/products/n6.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -311,7 +311,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/n7.jpg" alt="" />
+            <img src={require("./img/products/f1.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>
@@ -329,7 +329,7 @@ function Home() {
             </a>
           </div>
           <div class="pro">
-            <img src="img/products/n8.jpg" alt="" />
+            <img src={require("./img/products/n8.jpg")} alt="" />
             <div class="des">
               <span>Harsh</span>
               <h5> T-Shirts</h5>

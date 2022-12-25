@@ -1,6 +1,10 @@
-import React from "react";
+import React, { lazy, useContext } from "react";
+import { Link } from "react-router-dom";
+import { ProductContext } from "./App";
+import { productdetailsarray } from "./productdetails";
 
 function Shop() {
+  const productContext = useContext(ProductContext);
   return (
     <div>
       <body>
@@ -48,305 +52,25 @@ function Shop() {
 
         <section id="product1" class="section-p1">
           <div class="pro-container">
-            <div class="pro" onclick="window.location.href='sproduct.html';">
-              <img src={`${require("./img/products/f1.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/f2.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/f3.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/f4.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/f5.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/f6.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/f7.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/f8.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-
-            <div class="pro">
-              <img src={`${require("./img/products/n1.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/n2.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/n3.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/n4.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/n5.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/n6.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/n7.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
-            <div class="pro">
-              <img src={`${require("./img/products/n8.jpg")}`} alt="" />
-              <div class="des">
-                <span>Harsh</span>
-                <h5> T-Shirts</h5>
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <h4>8401293053</h4>
-              </div>
-              <a href="#">
-                <i class="fal fa-shopping-cart cart"></i>
-              </a>
-            </div>
+            {productContext.productList?.map((item, itemIndex) => {
+              return (
+                <ProductCard
+                  product={item}
+                  productIndex={itemIndex}
+                  key={item.imgUrl + itemIndex}
+                />
+              );
+            })}
           </div>
         </section>
 
-        <section id="pagination" class="section-p1">
+        {/* <section id="pagination" class="section-p1">
           <a href="#">1</a>
           <a href="#">2</a>
           <a href="#">
             <i class="fal fa-long-arrow-alt-right"></i>
           </a>
-        </section>
+        </section> */}
 
         <section id="newsletter" class="section-m1 section-p1">
           <div class="newstext">
@@ -417,25 +141,43 @@ function Shop() {
 
 export default Shop;
 
-function ProductCard({ product }) {
+function ProductCard({ product, productIndex }) {
+  const productContext = useContext(ProductContext);
   return (
-    <div class="pro" onclick="window.location.href='sproduct.html';">
-      <img src={`${require(product.imgUrl)}`} alt="" />
-      <div class="des">
-        <span>{product.name}</span>
-        <h5> {product.type}</h5>
-        <div class="star">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
+    <div class="pro">
+      <Link
+        to={"/details"}
+        state={{
+          product: product,
+        }}
+        style={{
+          textDecoration: "none",
+        }}
+      >
+        <img src={product.imgUrl} alt="g" />
+        <div class="des">
+          <span>{product.name}</span>
+          <h5> {product.type}</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>{product.contact}</h4>
         </div>
-        <h4>{product.contact}</h4>
-      </div>
-      <a href="#">
-        <i class="fal fa-shopping-cart cart"></i>
-      </a>
+        <a href="#">
+          <i class="fal fa-shopping-cart cart"></i>
+        </a>
+      </Link>
+      <button
+        onClick={() => {
+          productContext.removeThisProduct(productIndex);
+        }}
+      >
+        Remove This Product
+      </button>
     </div>
   );
 }

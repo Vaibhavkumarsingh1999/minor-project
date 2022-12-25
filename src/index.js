@@ -9,6 +9,7 @@ import Blog from "./blog";
 import Home from "./Home";
 import Shop from "./shop";
 import Form from "./Form";
+import Productdetails from "./productdetails";
 let router = createBrowserRouter([
   {
     path: "/",
@@ -31,8 +32,12 @@ let router = createBrowserRouter([
         element: <Shop />,
       },
       {
-        path: "/about",
+        path: "/form",
         element: <Form />,
+      },
+      {
+        path: "/details",
+        element: <Productdetails />,
       },
     ],
   },

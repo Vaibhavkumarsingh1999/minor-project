@@ -1,4 +1,5 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 export const productdetailsarray = [
   {
@@ -9,7 +10,7 @@ export const productdetailsarray = [
     size: "XL",
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
-      imgUrl: "./img/products/f2.jpg"
+    imgUrl: require("./img/products/f2.jpg"),
   },
   {
     type: "Shirt",
@@ -19,7 +20,7 @@ export const productdetailsarray = [
     size: "XL",
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
-    imgUrl: "./img/products/f1.jpg",
+    imgUrl: require("./img/products/f1.jpg"),
   },
   {
     type: "Jacket",
@@ -27,7 +28,7 @@ export const productdetailsarray = [
     contact: "998459459",
     address: "3257SECTOR 23D CHANDIGARH",
     size: "XLL",
-    imgUrl: "./img/products/f3.jpg",
+    imgUrl: require("./img/products/f3.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -37,7 +38,7 @@ export const productdetailsarray = [
     contact: "997874859",
     address: "3306 SECTOR 15D CHANDIGARH",
     size: "M",
-    imgUrl: "./img/products/f4.jpg",
+    imgUrl: require("./img/products/f4.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -47,7 +48,7 @@ export const productdetailsarray = [
     contact: "975757978",
     address: "3252 SECTOR 23D CHANDIGARH",
     size: "XL",
-    imgUrl: "./img/products/f5.jpg",
+    imgUrl: require("./img/products/f5.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -57,7 +58,7 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl: "./img/products/f6.jpg",
+    imgUrl: require("./img/products/f6.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -67,7 +68,7 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl: "./img/products/f7.jpg",
+    imgUrl: require("./img/products/f7.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -77,7 +78,7 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl: "./img/products/f8.jpg",
+    imgUrl: require("./img/products/f8.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -87,7 +88,7 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl : "./img/products/n1.jpg",
+    imgUrl: require("./img/products/n1.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -97,7 +98,7 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl : "./img/products/n2.jpg",
+    imgUrl: require("./img/products/n2.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -107,7 +108,7 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl : "./img/products/n3.jpg",
+    imgUrl: require("./img/products/n3.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -117,7 +118,7 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl : "./img/products/n4.jpg",
+    imgUrl: require("./img/products/n4.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -127,7 +128,7 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl : "./img/products/n5.jpg",
+    imgUrl: require("./img/products/n5.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -137,7 +138,7 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl : "./img/products/n6.jpg",
+    imgUrl: require("./img/products/n6.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -147,7 +148,7 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl : "./img/products/n7.jpg",
+    imgUrl: require("./img/products/n7.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
@@ -157,19 +158,25 @@ export const productdetailsarray = [
     contact: "98984594859",
     address: "312 SECTOR 37D CHANDIGARH",
     size: "XL",
-    imgUrl : "./img/products/n8.jpg",
+    imgUrl: require("./img/products/n8.jpg"),
     discription:
       " The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 ozper inch fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle   collar, and available in a range of colors it offers it all in the ultimate head-turning package.",
   },
 ];
 
 function Productdetails() {
+  const location = useLocation();
   return (
     <div>
       <body>
         <section id="prodetails" class="section-p1">
           <div class="single-pro-image">
-            <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="" />
+            <img
+              src={location.state.product.imgUrl}
+              width="100%"
+              id="MainImg"
+              alt="sad"
+            />
 
             <div class="small-img-group">
               <div class="small-img-col">
@@ -208,21 +215,14 @@ function Productdetails() {
           </div>
 
           <div class="single-pro-details">
-            <h4>Summer Shirt</h4>
-            <h6>Utkarsh pal</h6>
-            <h6>8400293053</h6>
-            <h6>House No 310 Sector 38B chandigarh</h6>
-            <h6>XL</h6>
+            <h4>{location.state.product.type}</h4>
+            <h6>{location.state.product.name}</h6>
+            <h6>{location.state.product.contact}</h6>
+            <h6>{location.state.product.address}</h6>
+            <h6>{location.state.product.size}</h6>
 
             <h4>Product Details</h4>
-            <span>
-              The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz.
-              per sq. yd. fabric constructed from 100% cotton, this classic fit
-              preshrunk jersey knit provides unmatched comfort with each wear.
-              Featuring a taped neck and shoulder, and a seamless double-needle
-              collar, and available in a range of colors, it offers it all in
-              the ultimate head-turning package.
-            </span>
+            <span>{location.state.product.discription}</span>
           </div>
         </section>
 
