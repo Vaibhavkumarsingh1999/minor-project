@@ -45,9 +45,10 @@ function Shop() {
         </section> */}
 
         <section id="page-header">
-          <h2>#Clothes for a cause</h2>
+          <h4>"It's easier to take than to give. It's nobler to give than to take. The thrill of taking lasts a day. The thrill of giving lasts a lifetime.</h4>
 
           <p>Just A Little Help Can Make Their Hearts Happier</p>
+          
         </section>
 
         <section id="product1" class="section-p1">
@@ -72,7 +73,7 @@ function Shop() {
           </a>
         </section> */}
 
-        <section id="newsletter" class="section-m1 section-p1">
+        {/* <section id="newsletter" class="section-m1 section-p1">
           <div class="newstext">
             <h4>Sign Up For latest News </h4>
             <p>Get E-mail updates about our latest products </p>
@@ -81,9 +82,9 @@ function Shop() {
             <input type="text" name="" placeholder="Your email address" id="" />
             <button class="normal">Sign Up</button>
           </div>
-        </section>
+        </section> */}
 
-        <footer class="section-p1">
+        {/* <footer class="section-p1">
           <div class="col">
             <h3>PU-Charity Foundation</h3>
             <h4>Contact</h4>
@@ -131,7 +132,7 @@ function Shop() {
               <img src={`${require("./img/pay/play.jpg")}`} alt="" />
             </div>
           </div>
-        </footer>
+        </footer> */}
 
         <script src="script.js"></script>
       </body>

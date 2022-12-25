@@ -8,8 +8,10 @@ function Home() {
           Kindness is giving hope to those who think they are all alone in this
           world.{" "}
         </p>
-        <h2>Help needy people</h2>
-        <h1>Donate products</h1>
+        <h2>"You give but little when you give of your possessions. It is when you give of yourself that you truly give.
+
+</h2>
+        <h1>Kahlil Gibran</h1>
 
         <button>Explore </button>
       </section>
@@ -42,8 +44,11 @@ function Home() {
       </section>
 
       <section id="product1" class="section-p1">
-        <h2>Featured Products</h2>
-        <p>Summer Collection Cloths</p>
+        <h4>"Giving does not only precede receiving; it is the reason for it. It is in giving that we receive.
+
+</h4>
+<br></br>
+        <h2>Our donated products</h2>
         <div class="pro-container">
           <div class="pro">
             <img src={require("./img/products/f1.jpg")} alt="" />
@@ -194,13 +199,16 @@ function Home() {
 
       <section id="banner" class="section-m1">
         <h4>Your old is their new. </h4>
-        <h2>Help us help them throw away their worn out clothes</h2>
-        <button class="normal">Donate More</button>
+        <h2>"We make a living by what we get. We make a life by what we give.
+
+</h2>
+<h1>Winston Churchill</h1>
+        <h3>Donate More</h3>
       </section>
 
       <section id="product1" class="section-p1">
         <h2>Give To Live Longer</h2>
-        <p>Summer Collection </p>
+        <p> </p>
         <div class="pro-container">
           <div class="pro">
             <img src={require("./img/products/n1.jpg")} alt="" />
@@ -353,14 +361,17 @@ function Home() {
         <div class="banner-box">
           <h4>Happy deals</h4>
           <h2></h2>
-          <span>The best classic dress for you</span>
-          <button class="white">Learn More</button>
+          <span>Remember that the happiest people are not <br></br> 
+            those getting more but those giving more</span>
+          
         </div>
         <div class="banner-box banner-box2">
           <h4>summer</h4>
           <h2>upcomming season cloths</h2>
-          <span>The best dress for you</span>
-          <button class="white">Products</button>
+          <span>You give but little when you give of your <br></br>
+             possessions. It is when you give of yourself <br></br>
+              that you truly give</span>
+          
         </div>
       </section>
 

@@ -26,9 +26,9 @@ function Blog() {
     </section> */}
 
         <section id="page-header" class="blog-header">
-          <h2>#readmore</h2>
+          <h4>Small act, when multiplied by millions people can transform the world</h4>
 
-          <p>Read all about our products! </p>
+          
         </section>
 
         <section id="blog">
@@ -132,13 +132,13 @@ function Blog() {
           </div>
         </section>
 
-        <section id="pagination" class="section-p1">
+        {/* <section id="pagination" class="section-p1">
           <Link href="#">1</Link>
           <Link href="#">2</Link>
           <Link href="#">
             <i class="fal fa-long-arrow-alt-right"></i>
           </Link>
-        </section>
+        </section> */}
 
         {/* <section id="newsletter" class="section-m1 section-p1">
         <div class="newstext">
@@ -151,7 +151,7 @@ function Blog() {
         </div>
     </section> */}
 
-        <footer class="section-p1">
+        {/* <footer class="section-p1">
           <div class="col">
             <h3>PU-Charity Foundation</h3>
             <h4>Contact</h4>
@@ -199,7 +199,7 @@ function Blog() {
               <img src="img/pay/play.jpg" alt="" />
             </div>
           </div>
-        </footer>
+        </footer> */}
 
         <script src="script.js"></script>
       </body>

@@ -34,14 +34,7 @@ function Contact() {
         </div>
 
         <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.8088025254456!2d-1.256555484681452!3d51.754819700404106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2sbd!4v1637232208485!5m2!1sen!2sbd"
-            width="600"
-            height="450"
-            style={{ border: 0 }}
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27437.637512402624!2d76.74983619149602!3d30.72670137489464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedae2ead8189%3A0xbd00b1101766ea0a!2sChandigarh%2C%20160022!5e0!3m2!1sen!2sin!4v1672006127732!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </section>
 
@@ -78,7 +71,7 @@ function Contact() {
         </div> */}
       </div>
 
-      <section id="newsletter" class="section-m1 section-p1">
+      {/* <section id="newsletter" class="section-m1 section-p1">
         <div class="newstext">
           <h4>Sign Up For latest News </h4>
           <p>Get E-mail updates about our latest products </p>
@@ -87,8 +80,8 @@ function Contact() {
           <input type="text" name="" placeholder="Your email address" id="" />
           <button class="normal">Sign Up</button>
         </div>
-      </section>
-
+      </section> */}
+{/* 
       <footer class="section-p1">
         <div class="col">
           <h3>PU-Charity Foundation</h3>
@@ -137,7 +130,7 @@ function Contact() {
             <img src="img/pay/play.jpg" alt="" />
           </div>
         </div>
-      </footer>
+      </footer> */}
 
       <script src="script.js"></script>
     </div>

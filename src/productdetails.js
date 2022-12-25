@@ -215,18 +215,18 @@ function Productdetails() {
           </div>
 
           <div class="single-pro-details">
-            <h4>{location.state.product.type}</h4>
-            <h6>{location.state.product.name}</h6>
-            <h6>{location.state.product.contact}</h6>
-            <h6>{location.state.product.address}</h6>
-            <h6>{location.state.product.size}</h6>
+            < h3 style={{fontSize:"20px", fontWeight:"bold", color:"#ABB2B9"}}>{location.state.product.type}</h3>
+            <h4 style={{fontSize:"16px", fontWeight:"bold", color:"#373737"}}>{location.state.product.name}</h4>
+            <h5 style={{fontSize:"20px", fontWeight:"bold", color:"#373737"}}>{location.state.product.contact}</h5>
+            <h5 >{location.state.product.address}</h5>
+            <h5>{location.state.product.size}</h5>
 
             <h4>Product Details</h4>
             <span>{location.state.product.discription}</span>
           </div>
         </section>
 
-        <section id="product1" class="section-p1">
+        {/* <section id="product1" class="section-p1">
           <h2>Products </h2>
           <p>Summer Cloths</p>
           <div class="pro-container">
@@ -303,7 +303,7 @@ function Productdetails() {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section id="newsletter" class="section-m1 section-p1">
           <div class="newstext">
