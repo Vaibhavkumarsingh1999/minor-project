@@ -1,28 +1,48 @@
-import React from 'react'
-import './App.css';
-import './style.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import "./App.css";
+import "./style.css";
 
 function header() {
   return (
-    <div>    <section id="header">
-    <h3>PU-Charity Foundation</h3>
     <div>
-        <ul id="navbar">
-        <li><a href="index.js">Home</a></li>
-                <li><a href="shop.js">Shop</a></li>
-                <li><a class="active" href="blog.js">Blog</a></li>
-                <li><a href="about.js">About</a></li>
-                <li><a href="contact.js">Contact</a></li>
-            {/* <!-- <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li> --> */}
-            <a id="close" href="#"><i class="far fa-times"></i></a>
-        </ul>
+      {" "}
+      <section id="header">
+        <h3>PU-Charity Foundation</h3>
+        <div>
+          <ul id="navbar">
+            <li>
+              <Link to="/home">Home</Link>
+            </li>
+            <li>
+              <Link to="shop.js">Shop</Link>
+            </li>
+            <li>
+              <Link class="active" to="blog.js">
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link to="about.js">About</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+            {/* <!-- <li id="lg-bag"><Link to="cart.html"><i class="far fa-shopping-bag"></i></Link></li> --> */}
+            <Link id="close" to="#">
+              <i class="far fa-times"></i>
+            </Link>
+          </ul>
+        </div>
+        <div id="mobile">
+          <Link to="cart.html">
+            <i class="far fa-shopping-bag"></i>
+          </Link>
+          <i id="bar" class="fas fa-outdent"></i>
+        </div>
+      </section>
     </div>
-    <div id="mobile">
-        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
-        <i id="bar" class="fas fa-outdent"></i>
-    </div>
-</section></div>
-  )
+  );
 }
 
-export default header
+export default header;
