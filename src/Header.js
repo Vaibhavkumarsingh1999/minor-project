@@ -15,15 +15,15 @@ function header() {
               <Link to="/home">Home</Link>
             </li>
             <li>
-              <Link to="shop.js">Shop</Link>
+              <Link to="/shop">Shop</Link>
             </li>
             <li>
-              <Link class="active" to="blog.js">
+              <Link class="active" to="/blog">
                 Blog
               </Link>
             </li>
             <li>
-              <Link to="about.js">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>

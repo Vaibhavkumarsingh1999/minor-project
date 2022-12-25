@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contact from "./contact";
 import Blog from "./blog";
 import Home from "./Home";
+import Shop from "./shop";
+import Form from "./Form";
 let router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +25,14 @@ let router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/shop",
+        element: <Shop />,
+      },
+      {
+        path: "/about",
+        element: <Form />,
       },
     ],
   },
